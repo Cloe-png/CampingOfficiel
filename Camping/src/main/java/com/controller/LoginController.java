@@ -23,7 +23,7 @@ public class LoginController extends Application {
 
     @Override
     public void start(Stage primaryStage) throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/tp_camping/login-view.fxml")); // Chemin corrigé
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/Camping/login-view.fxml")); // Chemin corrigé
         VBox vbox = loader.load();
         primaryStage.setTitle("Connexion - Gestion du Camping des Campagnes");
         primaryStage.setScene(new Scene(vbox, 800, 600));
